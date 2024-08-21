@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Animation</title>
+</head>
+
+<body>
+  <div>
+    <button id="run">Run!</button>
+    <button id="rec-start">Start Recording</button>
+    <button id="rec-stop">Stop Recording</button>
+    <span id="rec-status"></span>
+  </div>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.153.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.153.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <script src="lib/CCapture.all.min.js"></script>
+
+  <script src="script.js" type="module"></script>
+</body>
+
+</html>
